@@ -24,12 +24,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const nav = document.querySelector(".navigation");
   hamburgerIcon.addEventListener("click", function () {
     if (this.className == "fa-solid fa-bars") {
-      console.log(nav.style);        
-      this.className = "fa-solid fa-xmark"
-      nav.style.top = '79px'
+      console.log(nav.style);
+      this.className = "fa-solid fa-xmark";
+      nav.style.top = "79px";
     } else {
-      this.className = "fa-solid fa-bars"
-      nav.style.top = '-290px'
+      this.className = "fa-solid fa-bars";
+      nav.style.top = "-290px";
     }
   });
 });
