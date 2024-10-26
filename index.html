@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- MONTSERRAT FONT INTEGRATION -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME CDN LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- MAIN STYLESHEET INTEGRATION -->
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <title>SMS - OTP</title>
+  </head>
+  <body>
+    <!-- Header section start here -->
+    <header class="header-section">
+      <div class="container nav-container">
+        <div class="header-row">
+          <div class="header-logo">
+            <a href="#"
+              ><img
+                class="logo-main"
+                src="asset/images/logo.png"
+                alt="sms-otp main logo"
+            /></a>
+          </div>
+          <nav class="navigation">
+            <div class="nav__items">
+              <a class="nav__link" href="#">Home</a>
+              <a class="nav__link" href="#">Blog</a>
+              <a class="nav__link" href="#">Api</a>
+              <a class="nav__link" href="#">Faq</a>
+              <a class="nav__link" href="#">Contact us</a>
+            </div>
+            <div class="header-btn">
+              <a class="btn-login" href="#">Log In</a>
+              <a class="btn-signup" href="#">Sign Up</a>
+            </div>
+          </nav>
+
+          <div class="nav__right">
+            <div class="header-btn">
+              <a class="btn-login" href="#">Log In</a>
+              <a class="btn-signup" href="#">Sign Up</a>
+            </div>
+            <!-- Hamburger menu for mobile view -->
+            <div class="hamburger">
+              <i class="fa-solid fa-bars" id="hamburger"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header section end here -->
+    <!-- Main section start here -->
+    <main class="main-section">
+      <!-- Hero section start here -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-content-row">
+            <div class="hero-content">
+              <h1 class="primary-heading">
+                ONLINE SMS <br />
+                RECEIVE PLATFORM
+              </h1>
+              <p class="hero-description">
+                Specializing in providing SMS OTP verification services for
+                Whatsapp, Facebook, Telegram, Tinder and more...
+              </p>
+              <a href="#" class="btn-default">Get Your SMS Code Now!</a>
+              <p class="sub-description">
+                Want to learn more? See how it works
+              </p>
+              <div class="section-indicator">
+                <img src="asset/images/indicator_hero.png" alt="" />
+              </div>
+            </div>
+            <div class="hero-img">
+              <img src="asset/images/hero image.png" alt="Hero image" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero section end here -->
+      <!-- How it work section start here -->
+      <section class="how-it-work-section">
+        <div class="container">
+          <div class="section-title">
+            <h4 class="sub-title">How It Works</h4>
+            <h2 class="secondary-title">
+              Choose your country and service receive SMS right now
+            </h2>
+          </div>
+          <div class="how-it-work-row">
+            <div class="country-list">
+              <img
+                class="country-list-img"
+                src="asset/images/Country list.png"
+                alt="Country List"
+              />
+              <div class="country-indicator">
+                <img src="asset/images/country-indicator.png" alt="" />
+              </div>
+            </div>
+            <div class="country-content">
+              <h3 class="country-select-title">Select the Country</h3>
+              <p class="country-select-description">
+                Select the desired country from the list. There are 180+
+                countries available so you can choose your desired country
+              </p>
+            </div>
+          </div>
+          <div class="how-it-work-row row-responsive-work">
+            <div class="country-list">
+              <h3 class="country-select-title">Select the Service</h3>
+              <p class="country-select-description">
+                Once you choose your desired country then select your desired
+                service. You can start receiving SMS.
+              </p>
+            </div>
+            <div class="country-content">
+              <img
+                class="country-list-img"
+                src="asset/images/Country list.png"
+                alt="Country List"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- How it work section end here -->
+      <!-- Pricing section start here -->
+      <section class="pricing-section">
+        <div class="pricing-container">
+          <div class="pricing-area-box">
+            <div class="pricing-title">
+              <h2 class="pricing-card-title">Our Pricing</h2>
+              <p class="pricing-card-description">
+                The number will only be charged to you once the SMS code
+                arrives. <br />
+                <br />
+                If the number isn't used within the allotted time, the funds are
+                refunded and can be applied to another service or for trying a
+                new number.
+              </p>
+            </div>
+            <div class="pricing-table-row">
+              <div class="pricing-table">
+                <div class="pricing-header">
+                  <h5>From one site</h5>
+                  <h3>$0.01 for the site</h3>
+                </div>
+                <div class="pricing-items-list">
+                  <ul>
+                    <li>
+                      <div class="icon-check">
+                        <i class="fa-solid fa-circle-check"></i>
+                      </div>
+                      <div class="list-content">
+                        <p>
+                          <span class="bolder-title"
+                            >Time for receiving SMS
+                          </span>
+                          <br />Up to 20 minutes
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon-check gray-check">
+                        <i class="fa-solid fa-circle-check"></i>
+                      </div>
+                      <div class="list-content">
+                        <p>
+                          <span class="bolder-title">Number prolongation </span>
+                          <br />Not available
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon-check">
+                        <i class="fa-solid fa-circle-check"></i>
+                      </div>
+                      <div class="list-content">
+                        <p>
+                          <span class="bolder-title">You can receive SMS</span>
+                          <br />Only from one site / application selected when
+                          ordering
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon-check">
+                        <i class="fa-solid fa-circle-check"></i>
+                      </div>
+                      <div class="list-content">
+                        <p>
+                          <span class="bolder-title">Countries</span>
+                          <br />110 <span class="underline-text"
+                            >show list</span
+                          >
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon-check">
+                        <i class="fa-solid fa-circle-check"></i>
+                      </div>
+                      <div class="list-content">
+                        <p>
+                          <span class="bolder-title">Numbers</span>
+                          <br />Over 10 million numbers
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pricing-btn-area">
+                  <a href="#" class="btn-order btn-default">Order</a>
+                </div>
+              </div>
+              <div class="pricing-table">
+                <div class="pricing-header">
+                  <h5>From any site</h5>
+                  <h3>$ 3.00 per day</h3>
+                </div>
+                <div class="pricing-items-list">
+                  <ul>
+                    <li>
+                      <div class="icon-check">
+                        <i class="fa-solid fa-circle-check"></i>
+                      </div>
+                      <div class="list-content">
+                        <p>
+                          <span class="bolder-title">Rent term </span>
+                          <br />Unlimited (from 1 day)
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon-check">
+                        <i class="fa-solid fa-circle-check"></i>
+                      </div>
+                      <div class="list-content">
+                        <p>
+                          <span class="bolder-title">Number prolongation </span>
+                          <br />Available
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon-check">
+                        <i class="fa-solid fa-circle-check"></i>
+                      </div>
+                      <div class="list-content">
+                        <p>
+                          <span class="bolder-title">You can receive SMS</span>
+                          <br />From any legitimate sites and applications no
+                          limits
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon-check">
+                        <i class="fa-solid fa-circle-check"></i>
+                      </div>
+                      <div class="list-content">
+                        <p>
+                          <span class="bolder-title">Countries</span>
+                          <br />53 <span class="underline-text">show list</span>
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon-check">
+                        <i class="fa-solid fa-circle-check"></i>
+                      </div>
+                      <div class="list-content">
+                        <p>
+                          <span class="bolder-title">Numbers</span>
+                          <br />2458
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pricing-btn-area">
+                  <a href="#" class="btn-order btn-default">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Pricing section end here -->
+      <!-- Popular service section start here -->
+      <section class="popular-service-section">
+        <div class="container">
+          <div class="service-area">
+            <div class="service-title">
+              <h2>Most popular services today</h2>
+            </div>
+            <!-- <div class="service-item-row">
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/youtube.png"
+                  alt="Youtube logo for SMS OTP"
+                />
+                <h5>Google, Youtube, Gmail</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/facebook.png"
+                  alt="Facebook logo for SMS OTP"
+                />
+                <h5>Facebook</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/tiktok.png"
+                  alt="Tiktok logo for SMS OTP"
+                />
+                <h5>Tiktok</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+            </div>
+            <div class="service-item-row">
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/amazon.png"
+                  alt="Amazon logo for SMS OTP"
+                />
+                <h5>Amazon</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/discord.png"
+                  alt="Facebook logo for SMS OTP"
+                />
+                <h5>Discord</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/whats app.png"
+                  alt="Tiktok logo for SMS OTP"
+                />
+                <h5>WhatsApp</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+            </div>
+            <div class="service-item-row">
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/Telegram.png"
+                  alt="Telegram logo for SMS OTP"
+                />
+                <h5>Telegram</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/Twitter.png"
+                  alt="Twitter logo for SMS OTP"
+                />
+                <h5>Twitter</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/Instagram.png"
+                  alt="Instagram logo for SMS OTP"
+                />
+                <h5>Instagram</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+            </div> -->
+
+            <div class="service-item-row">
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/youtube.png"
+                  alt="Youtube logo for SMS OTP"
+                />
+                <h5>Google, Youtube, Gmail</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/facebook.png"
+                  alt="Facebook logo for SMS OTP"
+                />
+                <h5>Facebook</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/tiktok.png"
+                  alt="Tiktok logo for SMS OTP"
+                />
+                <h5>Tiktok</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/amazon.png"
+                  alt="Amazon logo for SMS OTP"
+                />
+                <h5>Amazon</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/discord.png"
+                  alt="Facebook logo for SMS OTP"
+                />
+                <h5>Discord</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/whats app.png"
+                  alt="Tiktok logo for SMS OTP"
+                />
+                <h5>WhatsApp</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/Telegram.png"
+                  alt="Telegram logo for SMS OTP"
+                />
+                <h5>Telegram</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/Twitter.png"
+                  alt="Twitter logo for SMS OTP"
+                />
+                <h5>Twitter</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+              <div class="card-item">
+                <img
+                  src="asset/images/Icons/Instagram.png"
+                  alt="Instagram logo for SMS OTP"
+                />
+                <h5>Instagram</h5>
+                <p>
+                  <span class="activated-color">Activated:</span> 1560 times
+                </p>
+                <p><span class="cost-color">Cost:</span> $ 0.24</p>
+                <a href="#" class="btn-default btn-card">Receive SMS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Popular service section end here -->
+      <!-- Online registration section start here -->
+      <section class="online-registration-section">
+        <div class="container">
+          <div class="online-registration-row">
+            <div class="registration-img">
+              <img
+                src="asset/images/online registration.png"
+                alt="Online registration for sms otp"
+              />
+            </div>
+            <div class="registration-content">
+              <h2>
+                Registration at <br />
+                online resources
+              </h2>
+              <p>
+                We give you the opportunity to use the phone <br />
+                number online to receive SMS to register on sites <br />
+                and application.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Online registration section end here -->
+      <!-- Registration section start here -->
+      <section class="registration-section">
+        <div class="container">
+          <div class="registration-step-area">
+            <div class="resgistration-title">
+              <h2>
+                Registration on the sites without <br />
+                SMS to your personal number
+              </h2>
+            </div>
+            <div class="resgistration-step-row">
+              <div class="step-indicator">
+                <img src="asset/images/Registration step.png" alt="" />
+              </div>
+              <div class="registration-card">
+                <div class="card-counter">
+                  <h3>1</h3>
+                </div>
+                <h5>
+                  Get your number in your <br />
+                  personal cabinet
+                </h5>
+                <p>
+                  To register you only need to enter your email address. No ID
+                  information or other contacts.
+                </p>
+              </div>
+              <div class="registration-card">
+                <div class="card-counter">
+                  <h3>2</h3>
+                </div>
+                <h5>Enter your phone number when signing up online</h5>
+                <p>
+                  We support 1500+ of the most popular social networks,
+                  messengers, marketplaces and web sites.
+                </p>
+              </div>
+              <div class="registration-card">
+                <div class="card-counter">
+                  <h3>3</h3>
+                </div>
+                <h5>You receive an SMS in your personal profile</h5>
+                <p>
+                  You enter the verification code you received on the site. From
+                  $0.05 per activation. The number of numbers and activations is
+                  unlimited.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Registration section end here -->
+      <!-- Phone number table section start here -->
+      <section class="phone-number-table-section">
+        <div class="container-table">
+          <div class="table-title">
+            <h2>
+              You can buy a disposable phone number or rent one for up to a
+              month
+            </h2>
+          </div>
+          <div class="table-area">
+            <table class="table table-bordered">
+              <tr>
+                <td></td>
+                <td>
+                  <h2>
+                    One-time <br />
+                    number for SMS
+                  </h2>
+                </td>
+                <td>
+                  <h2>Rent</h2>
+                </td>
+              </tr>
+              <tr class="custom-row-bg">
+                <td></td>
+                <td>
+                  <p>
+                    Receive a one-time SMS to a virtual number from the one
+                    website or application chosen when ordering.
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    Receive a one-time SMS to a virtual number from the one
+                    website or application chosen when ordering.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Rent duration</h4>
+                </td>
+                <td>
+                  <p>Up to 20 minutes</p>
+                </td>
+                <td>
+                  <p>Up to 90 days</p>
+                </td>
+              </tr>
+              <tr class="custom-row-bg">
+                <td>
+                  <h4>You can receive SMS</h4>
+                </td>
+                <td>
+                  <p>
+                    From the one site/application you selected when ordering
+                  </p>
+                </td>
+                <td>
+                  <p>Unlimited</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Number of countries</h4>
+                </td>
+                <td>
+                  <p>180+</p>
+                </td>
+                <td>
+                  <p>18</p>
+                </td>
+              </tr>
+              <tr class="custom-row-bg">
+                <td>
+                  <h4>Number of services</h4>
+                </td>
+                <td>
+                  <p>1200</p>
+                </td>
+                <td>
+                  <p>All possible services</p>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="#" class="btn-default">Buy a one-time mumber</a>
+                </td>
+                <td>
+                  <a href="#" class="btn-login">Rent a number</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+      <!-- Phone number table section end here -->
+      <!-- API section start here -->
+      <section class="api-section">
+        <div class="container">
+          <div class="api-area-row">
+            <div class="api-content">
+              <h2>Connect via API</h2>
+              <p>
+                Receive SMS verification in bulk and <br />
+                automate your work
+              </p>
+              <a href="#" class="btn-default">Read API Documentation</a>
+            </div>
+            <div class="api-img">
+              <img src="asset/images/api.png" alt="api image for sms otp" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- API section end here -->
+      <!-- FAQ section start here -->
+      <section class="faq-section">
+        <div class="pricing-container">
+          <div class="faq-area">
+            <div class="faq-title">
+              <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="accordion">
+              <div class="accordion-item">
+                <button class="accordion-button">
+                  <div>
+                    <p>Do I need a SIM card to use my virtual number?</p>
+                  </div>
+                  <div><i class="fa-solid fa-chevron-down"></i></div>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    No! There is no need, just purchase a number on our website.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-button">
+                  <div>
+                    <p>What is a virtual number?</p>
+                  </div>
+                  <div><i class="fa-solid fa-chevron-down"></i></div>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    No! There is no need, just purchase a number on our website.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-button">
+                  <div>
+                    <p>What is the SMS verification service?</p>
+                  </div>
+                  <div><i class="fa-solid fa-chevron-down"></i></div>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    No! There is no need, just purchase a number on our website.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-button">
+                  <div>
+                    <p>Where can I use my virtual mobile numbers?</p>
+                  </div>
+                  <div><i class="fa-solid fa-chevron-down"></i></div>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    No! There is no need, just purchase a number on our website.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-button">
+                  <div>
+                    <p>Will someone access my number when I stop renting it?</p>
+                  </div>
+                  <div><i class="fa-solid fa-chevron-down"></i></div>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    No! There is no need, just purchase a number on our website.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-button">
+                  <div>
+                    <p>Can I get a text message for free?</p>
+                  </div>
+                  <div><i class="fa-solid fa-chevron-down"></i></div>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    No! There is no need, just purchase a number on our website.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-button">
+                  <div>
+                    <p>What can I do if I don't receive a text message?</p>
+                  </div>
+                  <div><i class="fa-solid fa-chevron-down"></i></div>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    No! There is no need, just purchase a number on our website.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ section end here -->
+      <!-- Contact section start here -->
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-row">
+            <div class="contact-img-area">
+              <img
+                src="asset/images/contact.png"
+                alt="Contact us for sms otp"
+              />
+            </div>
+            <div class="contact-form-area">
+              <div class="contact-form">
+                <h3 class="form-title">Contact Us</h3>
+                <form action="#">
+                  <div class="user-name">
+                    <input
+                      class="input-field"
+                      type="text"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div class="user-email">
+                    <input
+                      class="input-field"
+                      type="email"
+                      placeholder="Your Email"
+                    />
+                  </div>
+                  <div class="message">
+                    <textarea
+                      name="message"
+                      rows="6"
+                      id=""
+                      placeholder="Your Message"
+                      class="input-field"
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <input
+                      type="submit"
+                      value="Send"
+                      class="btn-default btn-submit"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section end here -->
+    </main>
+    <!-- Main section end here -->
+    <!-- Footer area start here -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-logo">
+            <img src="asset/images/logo.png" alt="Footer logo for sms otp" />
+          </div>
+          <div class="copyright-text">
+            <p>&copy; Copyright 2024 | All rights are reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer area end here -->
+    <!-- JavaScript Integration -->
+    <script src="asset/js/script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

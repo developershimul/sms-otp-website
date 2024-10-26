@@ -1,0 +1,1165 @@
+/* ======== DEFAULT CSS START HERE ======== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.pricing-container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.container-table {
+  max-width: 95rem;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 4rem 3.2rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 1.6rem;
+}
+img {
+  max-width: 100%;
+}
+.btn-default {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f22c5a;
+  border: 0.2rem solid #f22c5a;
+  font-size: 1.6rem;
+  padding: 0.8rem 4rem;
+  border-radius: 3.5rem;
+  transition: ease-out 0.5s;
+  font-weight: 500;
+  margin-left: 0.6rem;
+}
+.btn-default:hover {
+  background-color: #fff;
+  color: #f22c5a;
+}
+/* ======== DEFAULT CSS END HERE ======== */
+/* ======== HEADER SECTION CSS START HERE ======== */
+.header-section {
+  background-color: #e8fbff;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-main {
+  width: 33.2rem;
+  display: block;
+}
+.btn-login {
+  text-decoration: none;
+  color: #f22c5a;
+  border: 2px solid #f22c5a;
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 0.8rem 4.5rem;
+  border-radius: 3.5rem;
+  transition: ease-out 0.5s;
+  font-weight: 500;
+  margin-right: 0.6rem;
+}
+.btn-login:hover {
+  background-color: #f22c5a;
+  color: #fff;
+}
+.btn-signup {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f22c5a;
+  border: 2px solid #f22c5a;
+  font-size: 1.6rem;
+  padding: 0.8rem 4rem;
+  border-radius: 3.5rem;
+  transition: ease-out 0.5s;
+  font-weight: 500;
+  margin-left: 0.6rem;
+}
+.btn-signup:hover {
+  background-color: #fff;
+  color: #f22c5a;
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav__items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav__link {
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #011e2a;
+}
+.nav__link:first-child {
+  color: #f22c5a;
+}
+
+/* Nav Right */
+.nav__right {
+  display: none;
+  align-items: center;
+  gap: 24px;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+  width: fit-content;
+  cursor: pointer;
+  width: 23px;
+  height: 26px;
+}
+
+.hamburger > #hamburger {
+  font-size: 26px;
+  color: #f22c5a;
+}
+
+/* ======== HEADER SECTION CSS END HERE ======== */
+/* ======== HERO SECTION CSS START HERE ======== */
+.hero-section {
+  background-image: url(../images/Backgrounds/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 2rem 0;
+  height: 90vh;
+  background-position: 0px -33vh;
+  position: relative;
+}
+
+.hero-content-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+}
+.hero-content {
+  width: 50%;
+  position: relative;
+}
+.primary-heading {
+  color: #011e2a;
+  font-size: 5.4rem;
+  font-weight: bold;
+}
+.hero-description {
+  color: #485459;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 2rem 0;
+}
+.sub-description {
+  color: #f22c5a;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+.hero-img {
+  width: 50%;
+}
+.section-indicator {
+  position: absolute;
+  right: -1px;
+  top: 280px;
+  transform: rotate(-11deg);
+  width: 230px;
+}
+
+/* ======== HERO SECTION CSS END HERE ======== */
+/* ======== HOW IT WORK SECTION CSS START HERE ======== */
+.how-it-work-section {
+  margin-top: -8rem;
+}
+.section-title {
+  text-align: center;
+}
+.sub-title {
+  color: #f22c5a;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-image: url(../images/title-wrapper.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  padding: 2rem 3.8rem;
+  margin: 1rem 0;
+}
+.secondary-title {
+  color: #011e2a;
+  font-size: 4.4rem;
+  font-weight: bold;
+  max-width: 758px;
+  margin: auto;
+}
+.how-it-work-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.2rem;
+  align-items: center;
+}
+.country-list {
+  width: 50%;
+  position: relative;
+}
+.country-content {
+  width: 50%;
+}
+.country-select-title {
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: #011e2a;
+}
+.country-select-description {
+  color: #485459;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 2rem;
+}
+.country-indicator {
+  position: absolute;
+  left: 50rem;
+  top: 43.4rem;
+  width: 14rem;
+}
+/* ======== HOW IT WORK SECTION CSS END HERE ======== */
+/* ======== PRICING SECTION CSS START HERE ======== */
+.pricing-section {
+  background-color: #f22c5a;
+  padding-top: 14rem;
+  padding-bottom: 8rem;
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+}
+
+.pricing-title {
+  text-align: center;
+  margin-bottom: 4.2rem;
+}
+.pricing-card-title {
+  color: #fff;
+  font-size: 4.4rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.pricing-card-description {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #f5f4f5;
+}
+.pricing-table-row {
+  display: flex;
+  gap: 5rem;
+  justify-content: space-between;
+}
+.pricing-table {
+  background-color: #fff;
+  padding: 2.4rem 3.2rem;
+  border-radius: 1.4rem;
+  width: 50%;
+}
+.pricing-header {
+  text-align: center;
+}
+.pricing-header h5 {
+  color: #4ddcfe;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.pricing-header h3 {
+  color: #011e2a;
+  font-size: 2.4rem;
+  margin: 2rem 0;
+}
+.pricing-items-list ul {
+  list-style-type: none;
+}
+.pricing-items-list li {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+.icon-check {
+  color: #4ddcfe;
+  font-size: 1.6rem;
+}
+.list-content p {
+  font-size: 1.6rem;
+  color: #717f85;
+  line-height: 2.4rem;
+}
+.bolder-title {
+  font-weight: bold;
+  color: #485459;
+}
+.pricing-btn-area {
+  text-align: center;
+  margin-top: 2.2rem;
+}
+.btn-order {
+  width: 100% !important;
+}
+.gray-check {
+  color: #a9bcc4;
+}
+.underline-text {
+  text-decoration: underline;
+}
+/* ======== PRICING SECTION CSS END HERE ======== */
+/* ======== POPULAR SERVICE SECTION CSS START HERE ======== */
+.popular-service-section {
+  padding: 8rem 0;
+}
+.service-title {
+  margin-bottom: 4.6rem;
+}
+.service-title h2 {
+  font-size: 4.4rem;
+  text-align: center;
+}
+/* .service-item-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.2rem;
+  margin-top: 3.2rem;
+} */
+
+.service-item-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+.card-item {
+  background-color: #f4fcfe;
+  padding: 3.6rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 1.6rem;
+}
+.card-item h5 {
+  font-size: 2rem;
+  color: #011e2a;
+  margin-top: 1.6rem;
+}
+.card-item p {
+  font-size: 1.6rem;
+  margin: 1.6rem 0;
+  color: #717f85;
+}
+
+.btn-card {
+  width: 100%;
+}
+.activated-color {
+  color: #485459 !important;
+  font-weight: bold;
+}
+.cost-color {
+  color: #485459 !important;
+  font-weight: bold;
+}
+/* ======== POPULAR SERVICE SECTION CSS END HERE ======== */
+/* ======== ONLINE REGISTRATION SECTION CSS START HERE ======== */
+.online-registration-section {
+  padding-bottom: 8rem;
+}
+.online-registration-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4.6rem;
+}
+.registration-img {
+  width: 50%;
+}
+.registration-content {
+  width: 50%;
+}
+.registration-content h2 {
+  font-size: 4.4rem;
+  font-weight: bold;
+}
+.registration-content p {
+  font-size: 2rem;
+  color: #485459;
+  line-height: 3rem;
+  margin-top: 2rem;
+}
+/* ======== ONLINE REGISTRATION SECTION CSS END HERE ======== */
+/* ======== REGISTRATION SECTION CSS START HERE ======== */
+.registration-section {
+  padding-top: 8rem;
+  padding-bottom: 60rem;
+  background-color: #e8fbff;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+.resgistration-title {
+  text-align: center;
+  margin-bottom: 16rem;
+}
+.resgistration-title h2 {
+  color: #011e2a;
+  font-size: 4.4rem;
+}
+.resgistration-step-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.2rem;
+  position: relative;
+}
+.registration-card {
+  background-color: #05aeff;
+  width: 100%;
+  padding: 6rem 3.2rem;
+  border-radius: 1.6rem;
+  position: relative;
+}
+.card-counter {
+  background-color: #f22c5a;
+  color: #fff;
+  height: 12rem;
+  width: 12rem;
+  border: 0.4rem solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 11rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card-counter h3 {
+  font-size: 4.4rem;
+  font-weight: 600;
+  line-height: 12rem;
+}
+.registration-card h5 {
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 5rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+}
+.registration-card p {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 2.8rem;
+  text-align: center;
+  margin-top: 3.2rem;
+}
+.step-indicator {
+  position: absolute;
+  top: -103px;
+  left: 186px;
+  right: 0;
+  width: 830px;
+}
+/* ======== REGISTRATION SECTION CSS END HERE ======== */
+/* ======== PHONE NUMBER TABLE SECTION CSS START HERE ======== */
+.phone-number-table-section {
+  position: relative;
+  margin-top: -50rem;
+}
+.table-title {
+  margin: 0 auto 4rem;
+  width: 100%;
+  max-width: 936px;
+}
+.table-title h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+}
+table,
+tr,
+td {
+  border: 1px solid #dadada !important;
+  border-collapse: collapse;
+}
+table tr td {
+  width: 0%;
+  padding: 1rem !important;
+}
+table tr td h4 {
+  color: #011e2a;
+  font-size: 1.6rem;
+}
+table tr td p {
+  color: #485459;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+table tr td h2 {
+  color: #011e2a;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.custom-row-bg {
+  background-color: #e4f5fc;
+}
+/* ======== PHONE NUMBER TABLE SECTION CSS END HERE ======== */
+/* ======== APISECTION CSS START HERE ======== */
+.api-section {
+  padding: 8rem 0;
+}
+.api-area-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  align-items: center;
+}
+.api-content {
+  width: 50%;
+}
+.api-content h2 {
+  font-size: 4.4rem;
+  font-weight: bold;
+  color: #011e2a;
+}
+.api-content p {
+  color: #485459;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 2.4rem 0;
+}
+.api-img {
+  width: 50%;
+}
+/* ======== API SECTION CSS END HERE ======== */
+/* ======== FAQ SECTION CSS START HERE ======== */
+.faq-section {
+  padding-bottom: 8rem;
+}
+.faq-title h2 {
+  font-size: 3.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-button {
+  background-color: #edfaff;
+  color: #00c1ef;
+  cursor: pointer;
+  padding: 15px;
+  text-align: left;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .accordion-button:hover {
+  background-color: #ddd;
+} */
+
+.accordion-content {
+  background-color: white;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+  padding-left: 15px;
+}
+
+.accordion-content p {
+  padding: 15px;
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.active .accordion-content {
+  max-height: 100px; /* Adjust as needed */
+}
+/* ======== FAQ SECTION CSS END HERE ======== */
+/* ======== CONTACT SECTION CSS START HERE ======== */
+.contact-section {
+  background-color: #f22c5a;
+  padding-top: 15rem;
+  padding-bottom: 8rem;
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+}
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9.4rem;
+}
+.contact-img-area {
+  width: 50%;
+}
+.contact-form-area {
+  width: 50%;
+}
+.contact-form {
+  background-color: #fff;
+  padding: 4.4rem;
+  border-radius: 1.6rem;
+}
+.form-title {
+  font-size: 3.6rem;
+  text-align: center;
+  margin-bottom: 2.6rem;
+}
+.input-field {
+  width: 100%;
+  margin-bottom: 1.6rem;
+  background-color: #eefaff;
+  border: none;
+  outline: none;
+  /* border: 1px solid #899397; */
+  padding: 1.4rem;
+  border-radius: 0.4rem;
+}
+.input-field::placeholder {
+  color: #899397;
+}
+.submit-btn {
+  text-align: center;
+}
+.btn-submit {
+  padding-left: 11rem;
+  padding-right: 11rem;
+  cursor: pointer;
+}
+/* ======== CONTACT SECTION CSS END HERE ======== */
+/* ======== FOOTER SECTION CSS START HERE ======== */
+.footer-section {
+  padding: 2rem 0;
+}
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo img {
+  width: 33.2rem;
+}
+.copyright-text p {
+  font-size: 1.6rem;
+}
+/* ======== FOOTER SECTION CSS END HERE ======== */
+
+@media screen and (max-width: 1199.98px) {
+  .logo-main {
+    width: 300px;
+    height: auto;
+  }
+
+  .btn-login {
+    padding: 8px 26px;
+  }
+  .btn-signup {
+    padding: 8px 26px;
+  }
+
+  .hero-content-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .section-indicator {
+    right: -100px;
+    top: 384px;
+    transform: rotate(355deg);
+    width: 230px;
+  }
+
+  .how-it-work-section {
+    margin-top: 2rem;
+  }
+
+  .hero-section {
+    padding: 3rem 0 2rem;
+  }
+
+  .country-indicator {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .header-section {
+    background: #e8fbff;
+    z-index: 5;
+    position: relative;
+  }
+
+  .navigation {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -290px;
+    left: 0;
+    z-index: 1;
+    background: #e8fbff;
+    padding: 20px 20px 32px;
+    box-shadow: 0 2px 6px #d2f7ff;
+  }
+
+  .nav__items {
+    flex-direction: column;
+  }
+
+  .navigation > .header-btn {
+    display: none;
+  }
+
+  /* Nav Right */
+  .nav__right {
+    display: flex;
+  }
+
+  .hero-content-row {
+    max-width: 890px;
+    padding: 0 30px;
+  }
+
+  .section-indicator {
+    right: -170px;
+    top: 364px;
+    transform: rotate(4deg);
+    width: 240px;
+  }
+
+  .primary-heading {
+    font-size: 42px;
+  }
+
+  .how-it-work-section {
+    margin-top: -2rem;
+  }
+
+  .how-it-work-row {
+    padding: 0 30px;
+  }
+
+  .country-indicator {
+    left: 38rem;
+    top: 33.4rem;
+    width: 14rem;
+  }
+
+  .service-item-row {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 40px;
+  }
+
+  .online-registration-row {
+    padding: 0 40px;
+  }
+
+  .step-indicator {
+    position: absolute;
+    top: -92px;
+    left: 130px;
+    right: 0;
+    max-width: 640px;
+  }
+
+  .registration-section {
+    padding: 8rem 40px 60rem;
+  }
+
+  .phone-number-table-section {
+    padding: 0 40px;
+  }
+
+  .api-area-row {
+    padding: 0 40px;
+  }
+
+  .contact-row {
+    padding: 0 40px;
+  }
+
+  .footer-row {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .nav__right > .header-btn {
+    display: none;
+  }
+
+  .navigation > .header-btn {
+    display: block;
+  }
+
+  .hero-section {
+    padding: 4rem 0 2rem;
+  }
+
+  .hero-content {
+    width: 60%;
+  }
+
+  .primary-heading {
+    font-size: 38px;
+    font-weight: 600;
+  }
+
+  .hero-img {
+    width: 40%;
+  }
+
+  .section-indicator {
+    right: -70px;
+    top: 344px;
+    width: 140px;
+  }
+
+  .how-it-work-section {
+    margin-top: -20rem;
+  }
+  .secondary-title {
+    padding: 0 40px;
+    font-size: 36px;
+  }
+
+  .country-select-title {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .country-indicator {
+    left: 28rem;
+    top: 24.4rem;
+    width: 9rem;
+  }
+
+  .pricing-area-box {
+    padding: 0 40px;
+  }
+
+  .pricing-table-row {
+    flex-direction: column;
+  }
+  .pricing-table {
+    width: 100%;
+  }
+
+  .pricing-section {
+    padding-top: 28rem;
+    clip-path: polygon(0 17%, 175% 0, 100% 100%, 0 100%);
+  }
+
+  .online-registration-row {
+    flex-direction: column;
+  }
+
+  .registration-img {
+    width: 80%;
+  }
+
+  .registration-content {
+    width: 80%;
+  }
+
+  .step-indicator {
+    display: none;
+  }
+
+  .resgistration-step-row {
+    gap: 9rem;
+    flex-direction: column;
+  }
+
+  .resgistration-title {
+    margin-bottom: 11rem;
+  }
+
+  .resgistration-title h2 {
+    font-size: 34px;
+  }
+
+  .registration-content h2 {
+    font-size: 34px;
+  }
+
+  .service-title h2 {
+    font-size: 34px;
+  }
+
+  .pricing-card-title {
+    font-size: 34px;
+  }
+
+  .table-title h2 {
+    font-size: 34px;
+  }
+
+  .table-area {
+    overflow: auto;
+  }
+
+  .table-area table {
+    width: 800px;
+  }
+
+  .api-area-row {
+    flex-direction: column-reverse;
+  }
+
+  .api-content {
+    width: 80%;
+  }
+
+  .api-img {
+    width: 80%;
+  }
+
+  .faq-title {
+    padding: 0 40px;
+  }
+
+  .faq-area {
+    padding: 0 40px;
+  }
+
+  .contact-row {
+    flex-direction: column;
+  }
+
+  .contact-img-area {
+    width: 80%;
+  }
+
+  .contact-form-area {
+    width: 80%;
+  }
+
+  .contact-row {
+    gap: 6rem;
+  }
+
+  .contact-section {
+    padding-top: 12rem;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .footer-row {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .section-indicator {
+    right: -103px;
+    width: 140px;
+    top: 375px;
+  }
+
+  .how-it-work-section {
+    margin-top: -27rem;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .hero-content-row {
+    flex-direction: column-reverse;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .section-indicator {
+    display: none;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .how-it-work-section {
+    margin-top: 0rem;
+  }
+
+  .primary-heading {
+    font-size: 36px;
+  }
+
+  .how-it-work-section {
+    margin-top: 24rem;
+  }
+
+  .section-title {
+    margin-bottom: 3rem;
+  }
+
+  .how-it-work-row {
+    flex-direction: column;
+  }
+
+  .country-list {
+    width: 100%;
+  }
+
+  .country-content {
+    width: 100%;
+  }
+
+  .country-indicator {
+    display: none;
+  }
+
+  .row-responsive-work {
+    flex-direction: column-reverse;
+  }
+
+  .pricing-section {
+    padding-top: 16rem;
+    clip-path: polygon(0 8%, 175% 0, 100% 100%, 0 100%);
+  }
+
+  .service-item-row {
+    grid-template-columns: 1fr;
+  }
+
+  .secondary-title {
+    font-size: 32px;
+  }
+
+  .country-select-title {
+    font-size: 30px;
+  }
+
+  .registration-img {
+    width: 100%;
+  }
+
+  .registration-content {
+    width: 100%;
+  }
+
+  .api-content h2 {
+    font-size: 34px;
+  }
+
+  .form-title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 475.98px) {
+  .pricing-area-box {
+    padding: 0 20px;
+  }
+
+  .service-item-row {
+    padding: 0 20px;
+  }
+
+  .online-registration-row {
+    padding: 0 20px;
+  }
+
+  .registration-section {
+    padding: 60px 20px 60rem;
+  }
+
+  .api-area-row {
+    padding: 0 20px;
+  }
+
+  .faq-area {
+    padding: 0 20px;
+  }
+
+  .contact-section {
+    padding-top: 8rem;
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 100%);
+  }
+  .contact-row {
+    padding: 0 20px;
+  }
+
+  .contact-form-area {
+    width: 100%;
+  }
+
+  .btn-submit {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .contact-form {
+    background-color: #fff;
+    padding: 26px;
+    border-radius: 1.6rem;
+  }
+
+  .nav-container {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .logo-main {
+    width: 200px;
+  }
+
+  .how-it-work-section {
+    margin-top: 14rem;
+  }
+}
